@@ -1,11 +1,11 @@
 # 🏥 USA Hospitals Exploratory Data Analysis (EDA) 
-<img width="253" height="256" alt="logo" src="https://github.com/user-attachments/assets/947dcc4d-6c76-4228-94d1-c4e9798c78f2" />
+<[img width="253" height="256" alt="logo" src="https://github.com/user-attachments/assets/947dcc4d-6c76-4228-94d1-c4e9798c78f2"](https://www.google.com/imgres?q=image%20for%20hospital&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fthumbnails%2F004%2F493%2F181%2Fsmall%2Fhospital-building-for-healthcare-background-illustration-with-ambulance-car-doctor-patient-nurses-and-medical-clinic-exterior-free-vector.jpg&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fhospital&docid=JGaPN5mQb9pcGM&tbnid=E5nlW4D3ngjpPM&vet=12ahUKEwi658b2v4SUAxWPQfEDHcAqH_sQnPAOegQIExAB..i&w=498&h=350&hcb=2&ved=2ahUKEwi658b2v4SUAxWPQfEDHcAqH_sQnPAOegQIExAB) />
 
 ## 👥 Team Members
 
-- [cite_start]Abanoub [cite: 128]
-- [cite_start]Pollob [cite: 129]
-- [cite_start]Supriya [cite: 130]
+- Abanoub
+- Pollob 
+- Supriya
 
 ## 📅 Project Date
 23 April 2026
