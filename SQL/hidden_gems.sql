@@ -9,6 +9,7 @@ WITH avg_drg_billing AS (
 )
 SELECT 
     h.hospital_name,
+	r.drg_code,
 	r.drg_description,
 	h.rating AS star_rating,
 	b.avg_total_payment AS hospital_price,
@@ -22,7 +23,6 @@ LEFT JOIN locations l ON h.location_id = l.location_id
 LEFT JOIN ref_drg r ON b.drg_code = r.drg_code
 LEFT JOIN avg_drg_billing ON b.drg_code = avg_drg_billing.drg_code
 WHERE 
-	h.rating = 5 
-  AND 
-	b.avg_total_payment < avg_drg_billing.avg_payment
+	h.rating = 5 AND b.avg_total_payment < avg_drg_billing.avg_payment AND l.state='CA'
+	
 ORDER BY l.state_full,total_savings DESC
