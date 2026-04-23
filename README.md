@@ -1,5 +1,6 @@
 # 🏥 USA Hospitals Exploratory Data Analysis (EDA) 
-<[img width="253" height="256" alt="logo" src="https://github.com/user-attachments/assets/947dcc4d-6c76-4228-94d1-c4e9798c78f2"]>
+<img width="498" height="350" alt="image" src="https://github.com/user-attachments/assets/50632e7b-2c49-4836-9163-ae6149b97f4d" />
+
 
 ## 👥 Team Members
 
