@@ -123,25 +123,3 @@ use hospital_analytics;
 ALTER TABLE billing
 ADD PRIMARY KEY (facility_id, drg_code);
 
-
-
-
-USE bank;
-
-SELECT * FROM account;
-SELECT * FROM district;
-SELECT * FROM loan;
-
-SELECT COUNT(a.account_id) AS number_of_accounts,
-       d.A2 AS district_name
-FROM account a
-JOIN district d
-  ON a.district_id = d.A1
-WHERE a.account_id IN (
-    SELECT account_id
-    FROM loan
-    WHERE amount > 100000
-)
-GROUP BY district_name
-ORDER BY number_of_accounts DESC
-LIMIT 10;
