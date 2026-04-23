@@ -1,4 +1,7 @@
-USE hospital_db;
+# buisness question 1
+# There are "Hidden Gem" hospitals that have a 5-star rating but cost less than the national average.
+
+use hospital_analytics;
 
 WITH avg_drg_billing AS (
 	SELECT 
@@ -15,7 +18,7 @@ SELECT
 	round(avg_drg_billing.avg_payment, 2) AS national_avg_price,
     round(avg_drg_billing.avg_payment - b.avg_total_payment, 2) AS total_savings,
 	l.city, l.state,
-    l.state_full
+    l.state_full_name
     
 FROM hospitals h
 LEFT JOIN billing b ON h.facility_id = b.facility_id
