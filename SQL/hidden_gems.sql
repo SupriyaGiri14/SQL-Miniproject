@@ -26,4 +26,5 @@ WHERE
 	h.rating = 5
   AND 
 	b.avg_total_payment < avg_drg_billing.avg_payment
+    
 ORDER BY r.drg_code,total_savings DESC;

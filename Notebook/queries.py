@@ -28,7 +28,7 @@ def get_hospital_query(location_input):
     AND 
         (l.state = '{location_input}' OR l.city = '{location_input}' OR l.state_full = '{location_input}')
     ORDER BY r.drg_code,total_savings DESC
-    LIMIT 100;
+    LIMIT 50;
     """
     return query
 
